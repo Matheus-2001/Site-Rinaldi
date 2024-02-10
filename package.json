@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "babel-loader": "^9.1.2",
+    "progressive-image": "^1.2.0",
+    "react": "^18.2.0",
+    "webpack": "^5.75.0"
+  }
+}

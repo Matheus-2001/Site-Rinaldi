@@ -1,0 +1,163 @@
+
+<html lang="pt-br">
+<!DOCTYPE html>
+<head>
+  
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />   
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script> 
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <title>Rinaldi Imovéis</title>
+</head>
+
+<body>
+  <script>
+    window.onscroll = function() {
+    const barraInf = document.querySelector(".barraInf");
+    if (window.pageYOffset > barraInf.offsetTop) {
+      barraInf.classList.add("sticky");
+    } else {
+      barraInf.classList.remove("sticky");
+    }
+  };
+  </script>
+  <div class="barraInf">
+    <img class="imgLogo lazy" data-src="/Imagens/logorinaldi3.svg" alt="">
+    <img class="imgLogomob lazy" data-src="/Imagens/logorinaldimob.svg" alt="">
+    <div class="barraInfIn">
+      <span class="material-symbols-outlined tel">
+      call
+      </span>
+      <h1 class="numInf">(11) 98789-0008</h1>
+      <span class="material-symbols-outlined tel">
+        call
+        </span>
+      <h1 class="numInf">(11) 98178-8888</h1>
+    </div>
+    
+  </div>
+  
+  
+  <div class="divImgCasas">
+    <div class="caixaImg">
+      <div class="slider1">
+        <img class="imgCasas lazy" data-src="/Imagens/camburiu1.webp" alt="">
+        <img class="imgCasas lazy" data-src="/Imagens/camburiu3.webp" alt="">
+        <img class="imgCasas lazy" data-src="/Imagens/camburiu2.webp" alt="">
+      </div>  
+      <div class="textoCaixaImg1">Para 8 Hóspedes,<br> 4 suítes </div>
+      <div class="textoCaixaImg">Camboriú - SC</div>
+    </div>
+    <div class="infomob1">
+      <h1 class="infoText">Apartamento na beira da praia com vista espetacular, conforto e segurança garantidos.</h1>
+      <a class="butdesk" href="PaginaSiriuba.html">
+        <span class="material-symbols-outlined descp">
+          description
+          </span> Veja mais detalhes!</a>
+    </div>  
+    <div class="caixaImg1">
+      <div class="slider2">
+        <img class="imgCasas lazy" data-src="/Imagens/Exterior/Externo1.webp" alt="">
+        <img class="imgCasas lazy" data-src="/Imagens/Exterior/Externo2.webp" alt="">
+        <img class="imgCasas lazy" data-src="/Imagens/Siriuba3.webp" alt="">
+      </div> 
+        <div class="textoCaixaImg1">Para 8 Hóspedes,<br> 4 suítes</div>
+        <div class="textoCaixaImg">Siriúba, Ilha Bela - SP</div>
+    </div>
+    <div class="infomob1">
+      <h1 class="infoText">Venha curtir o melhor carnaval de Ilhabela na nossa casa à beira-mar com vista deslumbrante! Alugue essa experiência única e inesquecível!</h1>
+      <a class="butdesk" href="PaginaSiriuba.html">
+        <span class="material-symbols-outlined descp">
+          description
+          </span> Veja mais detalhes!</a>
+    </div>   
+    <div class="caixaImg">
+      <div class="slider3">
+        <img class="imgCasas lazy" data-src="/Imagens/Duplex.webp" alt="">
+        <img class="imgCasas lazy" data-src="/Imagens/duplex2.webp" alt="">
+        <img class="imgCasas lazy" data-src="/Imagens/duplex3.webp" alt="">
+      </div>
+      <div class="textoCaixaImg1">Duplex com 1 suíte, 2 banheiros</div>
+      <div class="textoCaixaImg">São Paulo - SP</div>
+    </div>
+    <div class="infomob1">
+      <h1 class="infoText">Alugue esse luxuoso duplex em São Paulo! Conta com armários embutidos, ar condicionado, box, e uma vista deslumbrante. Venha desfrutar de conforto e lazer sem sair de casa!</h1>
+      <a class="butdesk" href="PaginaSiriuba.html">
+        <span class="material-symbols-outlined descp">
+          description
+          </span> Veja mais detalhes!</a>
+    </div>   
+  </div>
+  <div class="barraInf1">
+    <div class="info1">
+      <h1 class="infoText">Viva uma experiência única em nosso luxuoso apartamento com vista incrível!</h1>
+      <a class="butdesk" href="PaginaSiriuba.html">
+        <span class="material-symbols-outlined descp">
+          description
+          </span> Veja mais detalhes!</a>
+    </div>
+    <div class="info2"> 
+      <div class="divBordas"></div>
+      <h1 class="infoText infoTextmeio">Venha curtir o melhor carnaval de Ilhabela na nossa casa à beira-mar com vista deslumbrante!</h1>
+      <a class="butdesk" href="PaginaSiriuba.html">
+        <span class="material-symbols-outlined descp">
+          description
+          </span> Veja mais detalhes!</a>
+    </div>
+    <div class="info3">
+      <h1 class="infoText">Alugue esse luxuoso duplex em São Paulo! Venha desfrutar de conforto e lazer sem sair de casa!</h1>
+      <a class="butdesk" href="PaginaSiriuba.html">
+        <span class="material-symbols-outlined descp">
+          description
+          </span> Veja mais detalhes!</a>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+      
+    
+      $('.slider1').slick({
+      dots: true,
+      autoplay: false,
+      autoplaySpeed: 3000,
+      arrows: true});
+
+      $('.slider1').hover(function () {
+          $('.slider1').slick('slickPlay');
+      }, function () {
+          $('.slider1').slick('slickPause');
+      });
+      $('.slider2').slick({
+      dots: true,
+      autoplay: false,
+      autoplaySpeed: 3000,
+      arrows: true});
+
+      $('.slider2').hover(function () {
+          $('.slider2').slick('slickPlay');
+      }, function () {
+          $('.slider2').slick('slickPause');
+      });
+      $('.slider3').slick({
+      dots: true,
+      autoplay: false,
+      autoplaySpeed: 3000,
+      arrows: true});
+
+      $('.slider3').hover(function () {
+          $('.slider3').slick('slickPlay');
+      }, function () {
+          $('.slider3').slick('slickPause');
+      });
+  </script>
+  <script src="js/lazyload.min.js"></script>
+</body>
+</html>
