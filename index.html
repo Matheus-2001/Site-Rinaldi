@@ -1,21 +1,47 @@
+
 <html lang="pt-br">
-<!DOCTYPE html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=0.4">
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  <link rel="stylesheet" type="text/css" href="index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
-  <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script> 
-</head>
-<body>
-  <script>
+  <!DOCTYPE html>
+  <head>
+
+    <title>Rinaldi Imoveis</title>
+
+    <link rel="stylesheet"
+      href="css/css<1100.css">
+    <link rel="stylesheet"
+      href="css/css>1921.css">
+    <link rel="stylesheet"
+      href="css/css1100-1921.css">
+    <link rel="stylesheet"
+      href="css/index.css">
+
+    <script src="https://kit.fontawesome.com/8de56e2116.js"
+      crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=0.4">
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script
+      src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  </head>
+  <body>
+    <script>
     window.onscroll = function() {
     const barraInf = document.querySelector(".barraInf");
     if (window.pageYOffset > barraInf.offsetTop) {
@@ -24,112 +50,207 @@
       barraInf.classList.remove("sticky");
     }
   };
+
+
+   document.getElementById('contato').addEventListener('click', function() {
+    var element = document.getElementById('elementToScroll');
+    element.scrollIntoView({behavior: 'smooth', block: 'start'});
+});
+
   </script>
-  <div class="barraInf">
-    <img class="imgLogo lazy" data-src="/Imagens/logorinaldi3.svg" alt="">
-    <img class="imgLogomob lazy" data-src="/Imagens/logorinaldimob.svg" alt="">
-    <div class="barraInfIn">
-      <span class="material-symbols-outlined tel">
-      call
-      </span>
-      <h1 class="numInf">(11) 98789-0008</h1>
-      <span class="material-symbols-outlined tel">
-        call
-        </span>
-      <h1 class="numInf">(11) 98178-8888</h1>
-    </div>
-    
-  </div>
-  
-  
-  <div class="divImgCasas">
-    <div class="caixaImg1mob">
-      <div class="slider2">
-        <img class="imgCasas" src="/Imagens/Exterior/Externo1.webp" alt="">
-        <img class="imgCasas lazy" data-src="/Imagens/Exterior/Externo2.webp" alt="">
-        <img class="imgCasas lazy" data-src="/Imagens/Siriuba3.webp" alt="">
-      </div> 
-        <div class="textoCaixaImg1">Para 10 Hóspedes,<br> 5 suítes</div>
-        <div class="textoCaixaImg">Siriúba, Ilha Bela - SP</div>
-    </div>
-    <div class="infomob1">
-      <h1 class="infoText">Venha curtir as belezas naturais de ilhabela em uma casa beira-mar linda com uma vista deslunbrante!</h1>
-      <a class="butdesk" href="PaginaSiriuba.html">
-        <span class="material-symbols-outlined descp">
-          description
-          </span> Veja mais detalhes!</a>
-    </div>   
-    <div class="caixaImg">
-      <div class="slider1">
-        <img class="imgCasas" src="/Imagens/camburiu1.webp" alt="">
-        <img class="imgCasas lazy" data-src="/Imagens/camburiu3.webp" alt="">
-        <img class="imgCasas lazy" data-src="/Imagens/camburiu2.webp" alt="">
-      </div>  
-      <div class="textoCaixaImg1">Para 8 Hóspedes,<br> 4 suítes </div>
-      <div class="textoCaixaImg">Camboriú - SC</div>
-    </div>
-    <div class="infomob1">
-      <h1 class="infoText">Apartamento na beira da praia com vista espetacular, conforto e segurança garantidos.</h1>
-      <a class="butdesk" href="PaginaCamboriu.html">
-        <span class="material-symbols-outlined descp">
-          description
-          </span> Veja mais detalhes!</a>
-    </div>  
-    <div class="caixaImg1">
-      <div class="slider2">
-        <img class="imgCasas" src="/Imagens/Exterior/Externo1.webp" alt="">
-        <img class="imgCasas lazy" data-src="/Imagens/Exterior/Externo2.webp" alt="">
-        <img class="imgCasas lazy" data-src="/Imagens/Siriuba3.webp" alt="">
-      </div> 
-        <div class="textoCaixaImg1">Para 10 Hóspedes,<br> 5 suítes</div>
-        <div class="textoCaixaImg">Siriúba, Ilha Bela - SP</div>
-    </div>
-    <div class="caixaImg">
-      <div class="slider3">
-        <img class="imgCasas" src="/Imagens/Duplex.webp" alt="">
-        <img class="imgCasas lazy" data-src="/Imagens/duplex2.webp" alt="">
-        <img class="imgCasas lazy" data-src="/Imagens/duplex3.webp" alt="">
+    <div class="barraInf">
+
+      <div class="divrow">
+        <img class="imgLogo lazy" data-src="/Imagens/logorinaldi3.svg" alt>
+        <img class="imgLogomob lazy" data-src="/Imagens/logorinaldimob.svg" alt>
+        <div class="divrow">
+          <div class="dropdown">
+            <p class="textBarraInf divrow">Nossas Casas <span
+                class="arrow"></span></p>
+            <div class="dropdown-content">
+              <a href="link1.html"><img src="ImagensCamboriu/Vista/Vista2.webp"
+                  alt="Imagem 1"> <p class="textBarraInf txtdrop">Camboriú -
+                  SC</p>
+              </a>
+              <a href="link2.html"><img src="Imagens/Exterior/Externo2.webp"
+                  alt="Imagem 2">
+                <p class="textBarraInf txtdrop">Siriúba, Ilha Bela - SP</p>
+              </a>
+              <a href="link3.html"><img
+                  src="ImagensBerrini/Interior/interior2.webp" alt="Imagem 3">
+                <p class="textBarraInf txtdrop">São
+                  Paulo - SP</p>
+              </a>
+            </div>
+          </div>
+          <a href="#contactsSection" class="textBarraInf" id="contato">Entre em
+            contato</a>
+          <p class="textBarraInf">Redes socias</p>
+          <p class="textBarraInf">Sobre nós</p>
+
+        </div>
       </div>
-      <div class="textoCaixaImg1">Duplex com 1 suíte, 2 banheiros</div>
-      <div class="textoCaixaImg">São Paulo - SP</div>
+
     </div>
-    <div class="infomob1">
-      <h1 class="infoText">Alugue esse luxuoso duplex em São Paulo! Conta com armários embutidos, ar condicionado, box, e uma vista deslumbrante. Venha desfrutar de conforto e lazer sem sair de casa!</h1>
-      <a class="butdesk" href="paginaBerrini.html">
-        <span class="material-symbols-outlined descp">
-          description
-          </span> Veja mais detalhes!</a>
-    </div>   
-  </div>
-  <div class="barraInf1">
-    <div class="info1">
-      <h1 class="infoText">Viva uma experiência única em nosso luxuoso apartamento com vista incrível!</h1>
-      <a class="butdesk" href="PaginaCamboriu.html">
-        <span class="material-symbols-outlined descp">
-          description
-          </span> Veja mais detalhes!</a>
+
+    <div class="paginaprincipal">
+
+      <div class="casaDestaque">
+        <div class="imagem-overlay">
+          <img src="ImagensCamboriu/Vista/Vista1.webp"
+            alt="Descrição da imagem">
+          <div class="texto-sobreposto">
+            <h1>Casa Siriuba ótima para o carnaval</h1>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="nosscass">Nossas casas</h1>
+
+      <div class="barraInf1">
+        <div class="info">
+
+          <div class="imgcasagrid">
+            <img src="ImagensCamboriu/Vista/Vista1.webp"
+              alt="Descrição da imagem">
+          </div>
+
+          <div class="casatitlebox">
+            <div class="casatitlerow">
+              <h1 class="infoText">Casa de Luxo em Siriuba</h1>
+
+              <div
+                style="display: flex; flex-direction: row; align-items: center;"><i
+                  class="fas fa-star fa-lg star"
+                  style="color: rgb(207, 207, 0);"></i>
+                <h1 class="infoText rating">4.6</h1>
+              </div>
+            </div>
+
+            <div class="casatitlerow">
+              <h1 class="precocasa">R$1.200 a noite</h1>
+              <a class="butdesk" href="paginaBerrini.html">
+                <span class="material-symbols-outlined descp">
+                  visibility
+                </span>
+                <h1 class="descptext">Olhe a propriedade!</h1>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="info">
+
+          <div class="imgcasagrid">
+            <img src="Imagens/siriuba/Siriuba4.webp"
+              alt="Descrição da imagem">
+          </div>
+
+          <div class="casatitlebox">
+            <div class="casatitlerow">
+              <h1 class="infoText">Casa de Luxo em Siriuba</h1>
+
+              <div
+                style="display: flex; flex-direction: row; align-items: center;"><i
+                  class="fas fa-star fa-lg star" style="color: yellow;"></i>
+                <h1 class="infoText rating">4.6</h1>
+              </div>
+            </div>
+
+            <div class="casatitlerow">
+              <h1 class="precocasa">R$1.200 a noite</h1>
+              <a class="butdesk" href="paginaBerrini.html">
+                <span class="material-symbols-outlined descp">
+                  visibility
+                </span>
+                <h1 class="descptext">Olhe a propriedade!</h1>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="info">
+
+          <div class="imgcasagrid">
+            <img src="ImagensBerrini/Interior/interior2.webp"
+              alt="Descrição da imagem">
+          </div>
+
+          <div class="casatitlebox">
+            <div class="casatitlerow">
+              <h1 class="infoText">Casa de Luxo em Siriuba</h1>
+
+              <div
+                style="display: flex; flex-direction: row; align-items: center;"><i
+                  class="fas fa-star fa-lg star" style="color: yellow;"></i>
+                <h1 class="infoText rating">4.6</h1>
+              </div>
+            </div>
+
+            <div class="casatitlerow">
+              <h1 class="precocasa">R$1.200 a noite</h1>
+              <a class="butdesk" href="paginaBerrini.html">
+                <span class="material-symbols-outlined descp">
+                  visibility
+                </span>
+                <h1 class="descptext">Olhe a propriedade!</h1>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <!-- Final da BarraInf1 -->
+
+      <footer class="footer" id="contactsSection">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-column">
+              <h2>Sobre nós</h2>
+              <p style="font-family: 'Roboto', sans-serif;">Lorem ipsum dolor
+                sit amet consectetur, adipisicing elit. Fuga
+                illo quidem totam explicabo, ipsum rerum hic, ab animi
+                aspernatur minima harum magni ad quisquam nemo omnis ex a, quod
+                nisi?</p>
+            </div>
+            <div class="footer-column">
+              <h2>Entre em contato</h2>
+              <ul>
+                <li><a href="#">(61) 9 8256-8263</a></li>
+                <li><a href="#">(61) 9 8246-8364</a></li>
+                <li><a href="#">Dimo@uol.com</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h2>Redes sociais</h2>
+              <div class="divrow">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fab fa-facebook-f iconf"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
     </div>
-    <div class="info2"> 
-      <div class="divBordas"></div>
-      <h1 class="infoText infoTextmeio">Venha curtir as belezas naturais de ilhabela em uma casa beira-mar linda com uma vista deslunbrante!</h1>
-      <a class="butdesk" href="PaginaSiriuba.html">
-        <span class="material-symbols-outlined descp">
-          description
-          </span> Veja mais detalhes!</a>
-    </div>
-    <div class="info3">
-      <h1 class="infoText">Alugue esse luxuoso duplex em São Paulo! Venha desfrutar de conforto e lazer sem sair de casa!</h1>
-      <a class="butdesk" href="paginaBerrini.html">
-        <span class="material-symbols-outlined descp">
-          description
-          </span> Veja mais detalhes!</a>
-  </div>
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script>
+    <!-- Final da páginaPrincipal -->
+
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
       
-    
+     
+
+
+      
       $('.slider1').slick({
       dots: true,
       autoplay: false,
@@ -164,6 +285,6 @@
           $('.slider3').slick('slickPause');
       });
   </script>
-  <script src="js/lazyload.min.js"></script>
-</body>
+    <script src="js/lazyload.min.js"></script>
+  </body>
 </html>
