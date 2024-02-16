@@ -16,7 +16,8 @@
     }
 
     .paginaprincipal {
-        max-height: 80vh;
+
+        max-height: 90vh;
         /* Define a altura máxima como 100% da altura da viewport */
         overflow-y: auto;
         /* Adiciona uma barra de rolagem vertical quando necessário */
@@ -87,9 +88,14 @@
     .barraInf {
         margin-left: 5rem;
         margin-right: 5rem;
-        margin-bottom: 2rem;
-
     }
+
+    .casaDestaque {
+        margin-top: 2rem;
+    }
+
+
+
 
     .title {
         font-family: 'Poppins', sans-serif;
@@ -106,7 +112,7 @@
         display: flex;
         justify-content: center;
         background-color: #ffffff;
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
         width: 87rem;
         align-items: center;
     }
@@ -121,10 +127,13 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        padding-top: 30px;
+
 
     }
 
+    .nosscass {
+        margin-top: 5rem;
+    }
 
 
 
