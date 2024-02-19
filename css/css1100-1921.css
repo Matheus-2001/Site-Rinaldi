@@ -61,15 +61,7 @@
 
     }
 
-    .imgLogo {
-        height: 2.4rem !important;
-        margin-right: 2rem;
 
-    }
-
-    .imgLogomob {
-        display: none;
-    }
 
     .numInf {
         font-family: 'Poppins', sans-serif;
@@ -131,9 +123,7 @@
 
     }
 
-    .nosscass {
-        margin-top: 5rem;
-    }
+    .nosscass {}
 
 
 

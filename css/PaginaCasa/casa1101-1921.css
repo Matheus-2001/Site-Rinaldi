@@ -674,35 +674,11 @@
         right: 4%;
     }
 
-    .imgLogo {
-        height: 50%;
-        margin-left: 10px;
-
-    }
-
-    .imgLogomob {
-        display: none;
-    }
-
-    .barraInfIn {
-
-        display: flex;
-        align-items: center;
-        border: solid 1px rgb(187, 187, 187);
-        border-radius: 50px;
-        padding: 0px 20px 0px;
-        box-shadow: 2px 4px 3px #422e2538;
-        height: 60%;
-        width: 18rem;
-        margin-right: 3%;
 
 
-    }
 
-    .barraInfIn div {
-        display: flex;
-        align-items: center;
-    }
+
+
 
     .numInf {
         font-family: 'inter', sans-serif;
@@ -719,17 +695,8 @@
     }
 
     .barraInf {
-        display: flex;
-        justify-content: center;
-        background-color: rgb(158, 158, 158);
-        height: 10%;
-        align-items: center;
-        justify-content: space-between;
-        padding-right: 3%;
-        margin: 0px;
-        position: fixed;
-        width: 100%;
-        z-index: 20;
+        margin-left: 5rem;
+        margin-right: 5rem;
     }
 
     .icon {
@@ -906,7 +873,7 @@
         display: flex;
         width: 100%;
         height: 100%;
-        padding-top: 6%;
+
 
 
     }
