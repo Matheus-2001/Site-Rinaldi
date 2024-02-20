@@ -916,18 +916,7 @@
         height: fit-content;
     }
 
-    .subTextTitle {
-        font-size: 18px;
-        text-align: center;
-        border: solid 1px rgb(158, 158, 158);
-        border-radius: 15px;
-        width: fit-content;
-        padding: 10px 25px;
-        color: #636363;
-        box-shadow: -2px 2px 4px #0000003b;
-        align-self: center;
-        margin-top: 0px;
-    }
+    .subTextTitle {}
 
     .subText1 {}
 
@@ -1026,17 +1015,7 @@
         font-size: 8px;
     }
 
-    .infoRight {
-        display: flex;
-        flex-direction: column;
-        z-index: 10;
-        width: 95%;
-        height: fit-content;
-        border-radius: 15px;
-        margin: 10px 0px 0px;
-        box-shadow: 0px 2px 5px #0000003b;
-        padding: 15px;
-    }
+    .infoRight {}
 
     .imgRight1 {
         object-fit: cover;
