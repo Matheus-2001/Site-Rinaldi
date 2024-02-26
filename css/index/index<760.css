@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+@media (max-width: 760px) {
+
+    body {
+        color: black !important;
+        
+    }
+    .paginaprincipal{
+        padding: 0px 10px;
+    }
+    .texto-sobreposto{
+        font-size: 1.1rem;
+        padding: 0px;
+    }
+    .texto-sobreposto p{
+            font-size: 0.8rem !important;
+            
+        }
+    .barraInf1{
+        flex-direction: column;
+            height: auto;
+    }
+    .nosscassSubT{
+        text-align: center;
+    }
+    .info{
+        width: 100%;
+     
+            position: relative;
+                display: inline-block;
+    }
+    .imgcasagrid img{
+        height: 10rem;
+        width: 100%;
+        object-fit: cover;
+            overflow: hidden;
+    }
+    .casatitlebox{
+        margin-top: -10px;
+        width: 100%;
+        scale: 0.9;
+    }
+
+}

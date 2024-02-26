@@ -15,7 +15,11 @@
             href="/css/PaginaCasa/casa<760.css">
         <link rel="stylesheet" type="text/css"
             href="/css/cssTopBar.css">
+        <link rel="stylesheet"
+            href="css/Footer.css">
 
+        <script src="https://kit.fontawesome.com/8de56e2116.js"
+            crossorigin="anonymous"></script>
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <link rel="stylesheet"
@@ -63,9 +67,11 @@
                     <img class="imgLogo" src="/Imagens/logorinaldi3.svg"
                         alt>
                 </a>
+                <a href="/index.html">
+                    <img class="imgLogomob" src="Imagens/logorinaldimob.svg"
+                        alt>
+                </a>
 
-                <img class="imgLogomob"
-                    data-src="/Imagens/logorinaldimob.svg" alt>
                 <div class="divrow">
                     <div class="dropdown">
                         <p class="textBarraInf divrow">Nossas Casas <span
@@ -129,6 +135,9 @@
                         <img
                             style="height: 9rem; width: 13rem;border-radius: 20px;"
                             src="/ImagensBerrini/Quarto/quarto4.webp" alt>
+
+                        <div class="overlay2"></div>
+
                     </div>
                 </div>
             </div>
@@ -199,7 +208,7 @@
                     <button class="proxima">&#10095;</button>
                 </div>
             </div>
-            <div style="display: flex; flex-direction: row;">
+            <div class="boxLR">
                 <div class="boxLeft">
                     <div class="leftText">
                         <h1 class="title"> Apartamento, Duplex, linda vista -
@@ -237,45 +246,38 @@
                     </div>
 
                     <div class="mapboxdesk">
-                        <iframe
+                        <iframe id="mapboxdeskmob"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.777845543346!2d-46.69849148549017!3d-23.612298969359426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50cc26f5da0f%3A0x9ecc2a8f93f8a20!2sR.%20Jean%20Peltier%2C%20311%20-%20Cidade%20Mon%C3%A7%C3%B5es%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004576-130!5e0!3m2!1spt-BR!2sbr!4v1678364698361!5m2!1spt-BR!2sbr"
-                            width="400" height="300"
-                            style="border: solid 1px rgb(187, 187, 187);"
+                            width="100%" height="300"
+                            style="border: solid 1px rgb(187, 187, 187);border-radius: 15px;"
                             allowfullscreen loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
                 </div>
                 <div class="boxRight">
-
+                    <p class="brevinfoText"
+                        style="font-weight: 600; margin-bottom: 10px; font-size: 14px;">Breves
+                        informações</p>
+                    <p class="brevinfoText"><b
+                            style="font-weight: 500;">Proprietário:</b> Rinaldi
+                        Imoveis</p>
                     <div class="details">
-                        <div class="subText1"> <svg style="margin-right: 5px;"
-                                xmlns="http://www.w3.org/2000/svg" width="26"
-                                height="26"
-                                viewBox="0 0 512 512"><title>ionicons-v5-g</title><path
-                                    d="M384,240H96V136a40.12,40.12,0,0,1,40-40H376a40.12,40.12,0,0,1,40,40V240Z"
-                                    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" /><path
-                                    d="M48,416V304a64.19,64.19,0,0,1,64-64H400a64.19,64.19,0,0,1,64,64V416"
-                                    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" /><path
-                                    d="M48,416v-8a24.07,24.07,0,0,1,24-24H440a24.07,24.07,0,0,1,24,24v8"
-                                    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" /><path
-                                    d="M112,240V224a32.09,32.09,0,0,1,32-32h80a32.09,32.09,0,0,1,32,32v16"
-                                    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" /><path
-                                    d="M256,240V224a32.09,32.09,0,0,1,32-32h80a32.09,32.09,0,0,1,32,32v16"
-                                    style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" /></svg>
+                        <div class="subText1"> <img src="Imagens/Icons/bed.png"
+                                style="width: 27px; height: 27px; margin-right: 10px; "
+                                alt>
                             1</div>
-                        <p class="subText1"><span
-                                class="material-symbols-outlined icon">
-                                person
-                            </span>2</p>
-                        <p class="subText1"> <span
-                                class="material-symbols-outlined icon">
-                                bed
-                            </span>1</p>
-                        <p class="subText1"> <span
-                                class="material-symbols-outlined icon">
-                                bathroom
-                            </span>2 </p>
+                        <p class="subText1"><img
+                                src="Imagens/Icons/bath-tub.png"
+                                style="width: 22px; height: 22px; margin-right: 10px; margin-bottom: 5px;"
+                                alt>2</p>
+                        <p class="subText1"> <img src="Imagens/Icons/person.png"
+                                style="width: 27px; height: 27px; margin-right: 5px;"
+                                alt>1</p>
+                        <p class="subText1"> <img
+                                src="Imagens/Icons/maximize.png"
+                                style="width: 18px; height: 18px; margin-right:10px ; margin-bottom: 0px;">
+                            107 m² </p>
                     </div>
 
                     <div class="links">
@@ -342,9 +344,57 @@
                         </p>
                     </div>
 
+                    <a href="https://wa.me/5511987890008" class="buttonBoxR
+                        "><b>Entre em contato</b></a>
                 </div>
 
             </div>
+
+            <footer class="footer" id="contactsSection">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-column">
+                            <h2>Sobre nós</h2>
+                            <p style="font-family: 'Roboto', sans-serif;">Lorem
+                                ipsum dolor
+                                sit amet consectetur, adipisicing elit. Fuga
+                                illo quidem totam explicabo, ipsum rerum hic, ab
+                                animi
+                                aspernatur minima harum magni ad quisquam nemo
+                                omnis ex a,
+                                quod
+                                nisi?</p>
+                        </div>
+                        <div class="footer-column">
+                            <h2>Entre em contato</h2>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-phone"></i>
+                                    <a href="tel:+61982568263">(61) 9
+                                        8256-8263</a>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-phone"></i>
+                                    <a href="tel:+61982468364">(61) 9
+                                        8246-8364</a>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope">
+                                    </i>
+                                    <a
+                                        href="mailto:Dimo@uol.com">Dimo@uol.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h2>Redes sociais</h2>
+                            <div class="divrow">
+                                <i class="fab fa-facebook-f iconf"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
 
         </div>
 

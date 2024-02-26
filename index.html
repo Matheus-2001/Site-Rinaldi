@@ -1,36 +1,27 @@
-
+<!DOCTYPE html>
 <html lang="pt-br">
-  <!DOCTYPE html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <title>Rinaldi Imoveis</title>
-
     <link rel="stylesheet"
-      href="css/css<1100.css">
+      href="css/index/index.css">
     <link rel="stylesheet"
-      href="css/css>1921.css">
+      href="css/index/index<760.css">
     <link rel="stylesheet"
-      href="css/css1100-1921.css">
+      href="css/index/index761-1100.css">
     <link rel="stylesheet"
-      href="css/index.css">
+      href="css/index/index1100-1921.css">
     <link rel="stylesheet"
       href="css/cssTopBar.css">
-
+    <link rel="stylesheet"
+      href="css/Footer.css">
     <script src="https://kit.fontawesome.com/8de56e2116.js"
       crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=0.4">
-    <meta charset="UTF-8">
     <link rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Solitreo&display=swap"
@@ -39,32 +30,14 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
-    <script
-      src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
   </head>
   <body>
-    <script>
-    window.onscroll = function() {
-    const barraInf = document.querySelector(".barraInf");
-    if (window.pageYOffset > barraInf.offsetTop) {
-      barraInf.classList.add("sticky");
-    } else {
-      barraInf.classList.remove("sticky");
-    }
-  };
 
-
-   document.getElementById('contato').addEventListener('click', function() {
-    var element = document.getElementById('elementToScroll');
-    element.scrollIntoView({behavior: 'smooth', block: 'start'});
-});
-
-  </script>
     <div class="barraInf">
 
       <div class="divrow">
         <img class="imgLogo lazy" data-src="/Imagens/logorinaldi3.svg" alt>
-        <img class="imgLogomob lazy" data-src="/Imagens/logorinaldimob.svg" alt>
+        <img class="imgLogomob lazy" data-src="Imagens/logorinaldimob.svg" alt>
         <div class="divrow">
           <div class="dropdown">
             <p class="textBarraInf divrow">Nossas Casas <span
@@ -126,10 +99,10 @@
       <div class="barraInf1">
         <div class="info">
 
-          <div class="imgcasagrid">
+          <a class="imgcasagrid" href="paginaBerrini.html">
             <img src="ImagensCamboriu/Vista/Vista1.webp"
               alt="Descrição da imagem">
-          </div>
+          </a>
 
           <div class="casatitlebox">
             <div class="casatitlerow">
@@ -162,10 +135,10 @@
 
         <div class="info">
 
-          <div class="imgcasagrid">
+          <a class="imgcasagrid" href="paginaBerrini.html">
             <img src="Imagens/siriuba/Siriuba4.webp"
               alt="Descrição da imagem">
-          </div>
+          </a>
 
           <div class="casatitlebox">
             <div class="casatitlerow">
@@ -198,10 +171,10 @@
 
         <div class="info">
 
-          <div class="imgcasagrid">
+          <a class="imgcasagrid" href="paginaBerrini.html">
             <img src="ImagensBerrini/Interior/interior2.webp"
               alt="Descrição da imagem">
-          </div>
+          </a>
 
           <div class="casatitlebox">
             <div class="casatitlerow">
@@ -285,46 +258,7 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
       integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
       crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-      
-     
 
-
-      
-      $('.slider1').slick({
-      dots: true,
-      autoplay: false,
-      autoplaySpeed: 3000,
-      arrows: true});
-
-      $('.slider1').hover(function () {
-          $('.slider1').slick('slickPlay');
-      }, function () {
-          $('.slider1').slick('slickPause');
-      });
-      $('.slider2').slick({
-      dots: true,
-      autoplay: false,
-      autoplaySpeed: 3000,
-      arrows: true});
-
-      $('.slider2').hover(function () {
-          $('.slider2').slick('slickPlay');
-      }, function () {
-          $('.slider2').slick('slickPause');
-      });
-      $('.slider3').slick({
-      dots: true,
-      autoplay: false,
-      autoplaySpeed: 3000,
-      arrows: true});
-
-      $('.slider3').hover(function () {
-          $('.slider3').slick('slickPlay');
-      }, function () {
-          $('.slider3').slick('slickPause');
-      });
-  </script>
     <script src="js/lazyload.min.js"></script>
   </body>
 </html>

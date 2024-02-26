@@ -1,131 +1,197 @@
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;900&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
 
-  .divrow {
+.divrow {
 
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-  }
-
-
-  .imgLogo {
-      width: 15rem;
-      margin-left: 10px;
-  }
-
-  .imgLogomob {
-      display: none;
-  }
-
-  .barraInf {
-      display: flex;
-      justify-content: center;
-      height: 10%;
-      align-items: center;
-      justify-content: space-between;
-      padding-right: 3%;
-  }
-
-  .textBarraInf {
-      font-family: 'Poppins', sans-serif;
-      font-size: 14px;
-      margin: 11px 0.8rem 0px;
-      cursor: pointer;
-      transition: 0.2s ease-in-out;
-      color: #000;
-  }
-
-  .textBarraInf:hover {
-      padding: 5px;
-      border-radius: 5px;
-      background-color: #cccccc67;
-  }
-
-  .txtdrop {
-      font-size: 16px;
-  }
-
-  .dropdown {
-      position: relative;
-      display: inline-block;
-  }
-
-  .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-      z-index: 5;
-      white-space: nowrap;
-      border-radius: 10px;
-  }
-
-  .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: inline-block;
-
-  }
-
-  .dropdown-content a:hover {
-      background-color: #f1f1f1;
-      border-radius: 15px;
-  }
-
-  .dropdown:hover .dropdown-content {
-      display: block;
-  }
-
-  .dropdown .arrow {
-      display: inline-block;
-      width: 0;
-      height: 0;
-      margin-top: 5.5px;
-      margin-left: 5px;
-      border: solid transparent;
-      border-width: 6px;
-      border-top-color: #000;
-  }
-
-  .dropdown img {
-      border: 4px solid rgba(119, 119, 119, 0.32);
-      border-radius: 10px;
-      width: 15rem;
-      height: 10rem;
-
-      object-fit: cover;
-      overflow: hidden;
-      transition: 0.55s ease-in-out;
-  }
-
-  .dropdown img:hover {
-      width: 20rem;
-      height: 15rem;
-  }
-
-  a {
-      text-decoration: none;
-  }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 
-  @media (min-width: 1100px) and (max-width: 1921px) {
+.imgLogo {
+    width: 15rem;
+    margin-left: 10px;
+}
 
 
 
-      .imgLogo {
-          height: 2.4rem !important;
-          margin-right: 2rem;
+.barraInf {
+    display: flex;
+    justify-content: center;
 
-      }
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3%;
+}
 
-      .imgLogomob {
-          display: none;
-      }
-  }
+.textBarraInf {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin: 11px 0.8rem 0px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    color: #000;
+    line-height: 1;
+}
+
+.textBarraInf:hover {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #cccccc67;
+}
+
+.txtdrop {
+    font-size: 16px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: -200%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 5;
+    white-space: nowrap;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown .arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-top: 5.5px;
+    margin-left: 5px;
+    border: solid transparent;
+    border-width: 6px;
+    border-top-color: #000;
+}
+
+.dropdown img {
+    border: 4px solid rgba(119, 119, 119, 0.32);
+    border-radius: 10px;
+    width: 15rem;
+    height: 10rem;
+
+    object-fit: cover;
+    overflow: hidden;
+    transition: 0.55s ease-in-out;
+}
+
+.dropdown img:hover {
+    width: 20rem;
+    height: 15rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@media (min-width: 1100px) and (max-width: 2300px) {
+
+
+
+    .imgLogo {
+        height: 2.4rem !important;
+        margin-right: 2rem;
+
+    }
+
+    .imgLogomob {
+        display: none;
+    }
+
+    .barraInf {
+        height: 4rem;
+
+    }
+
+    .textBarraInf {
+        font-size: 16px;
+        
+    }
+}
+@media (min-width: 761px) and (max-width: 1100px) {
+    .imgLogo {
+            height: 2.4rem !important;
+            margin-right: 2rem;
+    
+        }
+    
+        .imgLogomob {
+            display: none;
+        }
+    .barraInf {
+            height: 4rem;
+        }
+}
+
+@media (max-width: 760px) {
+
+        .barraInf {
+        height: 6rem;
+    }
+        .imgLogo {
+           display: none;
+        }
+    
+        .imgLogomob {
+            width: 6.5rem;
+            margin-left: 5px;
+            margin-bottom: 20px;
+      
+        }
+        .textBarraInf {
+            font-size: 10px;
+    }
+        .dropdown .arrow {
+          scale: 0.8;
+    }
+        .dropdown:hover .dropdown-content {
+            display: flex;
+            flex-direction: column;
+        }
+        .dropdown-content {
+        
+            left: -100%;
+            min-width: 160px;
+        }
+        .dropdown img {
+            border: 4px solid rgba(119, 119, 119, 0.32);
+            border-radius: 10px;
+            width: 12rem;
+            height: 7rem;
+    
+            object-fit: cover;
+            overflow: hidden;
+            transition: 0.55s ease-in-out;
+        }
+}
